@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Vamos contar?</h1>
+    </header>
+    <section id="content">
+      <div id="dados">
+        <div class="input-field">
+          <input
+            class="input-numero"
+            type="number"
+            name="inicio"
+            id="txti"
+            required
+            spellcheck="false"
+          />
+          <label for="inicio"> Início</label>
+        </div>
+        <div class="input-field">
+          <input
+            class="input-numero"
+            type="number"
+            name="fim"
+            id="txtf"
+            required
+            spellcheck="false"
+          />
+          <label for="fim">Fim</label>
+        </div>
+        <div class="input-field">
+          <input
+            class="input-numero"
+            type="number"
+            name="passos"
+            id="txtp"
+            required
+            spellcheck="false"
+          />
+          <label for="passos">Passos</label>
+        </div>
+        <button class="btn" onclick="calcular()">Contar</button>
+      </div>
+
+      <div id="res">
+        <p>Preparando a contagem...</p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Jeann Moret</p>
+    </footer>
+  </body>
+</html>

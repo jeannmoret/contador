@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 36, 122);
+  box-sizing: border-box;
+}
+
+header {
+  color: aliceblue;
+  text-align: center;
+}
+
+section {
+  background-color: #d5d1d3;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+p {
+  font-size: 22px;
+}
+footer {
+  color: aliceblue;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(36, 36, 122);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input {
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #ffff;
+  background-color: #0056b3;
+  outline: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 25px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  background: #fff;
+  color: black;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: 0;
+  font-size: 20px;
+  padding: 0 10px;
+  background: #0056b3;
+  border-radius: 6px;
+  border: 2px solid rgb(8, 172, 8);
+}
+
+/* .input-numero {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-numero:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border: 2px solid #28b928;
+}
+
+/* Remove as setas de incremento e decremento */
+/* Chrome, Safari, Edge, Opera */
+.input-numero::-webkit-outer-spin-button,
+.input-numero::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*/ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(36, 36, 122);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+#res {
+  font-size: 28px;
+  color: black;
+}
